@@ -4,7 +4,7 @@ class Circle : public Shape
 {
 public:
 	Circle();
-	~Circle();
+	virtual ~Circle();
 	void PrintShape();
 };
 

@@ -2,8 +2,14 @@
 #include "Circle.h"
 #include <iostream>
 
-Circle::Circle() {};
-Circle::~Circle() {};
+Circle::Circle() : Shape()
+{
+
+};
+
+Circle::~Circle() {
+	std::cout << "Circle hass been exploded" << std::endl;
+};
 
 
 void Circle::PrintShape() {

@@ -24,7 +24,12 @@ int main()
 }
 
 void CallShape(Shape *shape) {
-	shape->PrintShape();
+	(*shape).PrintShape();
+	delete shape;
+	//(*shape).~Shape();
+	//shape->PrintShape();
+	//(&shape)->PrintShape()
+	
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
