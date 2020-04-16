@@ -1,4 +1,4 @@
-
+#pragma once
 #include "Square.h"
 #include <iostream>
 Square::Square()

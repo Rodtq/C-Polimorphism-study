@@ -1,5 +1,6 @@
 // ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+#pragma once
 #include "Shape.h"
 #include "Square.h"
 #include "Circle.h"
