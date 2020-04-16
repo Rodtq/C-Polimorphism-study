@@ -1,11 +1,10 @@
 #pragma once
 #include "Shape.h"
+
 class Circle : public Shape
 {
 public:
 	Circle();
-	~Circle();
-	void PrintShape();
+	virtual ~Circle();
+	virtual void PrintShape();
 };
-
-
