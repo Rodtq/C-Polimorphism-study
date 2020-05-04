@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Square.cpp" />
   </ItemGroup>
   <ItemGroup>

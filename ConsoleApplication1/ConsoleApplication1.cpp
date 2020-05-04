@@ -22,9 +22,11 @@ int main(int argc, char* argv)
 	return 0;
 }
 
+
 void CallShape(Shape* shape)
 {
 	shape->PrintShape();
+
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

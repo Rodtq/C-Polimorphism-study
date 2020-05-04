@@ -6,5 +6,7 @@ class Square : public Shape
 public:
 	Square();
 	virtual ~Square();
+
 	virtual void PrintShape();
+
 };
