@@ -26,6 +26,12 @@ int main(int argc, char* argv)
 void CallShape(Shape* shape)
 {
 	shape->PrintShape();
+	//(*shape).PrintShape();
+
+	delete shape;
+	//(*shape).~Shape();
+	//shape->PrintShape();
+	//(&shape)->PrintShape()
 
 };
 

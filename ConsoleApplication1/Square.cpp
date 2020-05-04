@@ -10,6 +10,7 @@ Square::Square()
 
 Square::~Square()
 {
+	std::cout << "Square hass been exploded" << std::endl;
 }
 
 void Square::PrintShape()

@@ -9,6 +9,7 @@ Circle::Circle()
 
 Circle::~Circle()
 {
+	std::cout << "Circle hass been exploded" << std::endl;
 }
 
 void Circle::PrintShape()
