@@ -1,6 +1,5 @@
 // ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-#pragma once
 #include "Shape.h"
 #include "Square.h"
 #include "Circle.h"
@@ -8,7 +7,7 @@
 
 void CallShape(Shape*);
 
-int main()
+int main(int argc, char* argv)
 {
 	Shape* shapeList[] = { new Square() , new Circle() };
 	//Shape* square = new Square();
@@ -20,22 +19,20 @@ int main()
 	{
 		CallShape(shapeList[i]);
 	}
-
+	return 0;
 }
 
-void CallShape(Shape *shape) {
-	(*shape).PrintShape();
-	delete shape;
-	//(*shape).~Shape();
-	//shape->PrintShape();
-	//(&shape)->PrintShape()
-	
+
+void CallShape(Shape* shape)
+{
+	shape->PrintShape();
+
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
+// Tips for Getting Started:
 //   1. Use the Solution Explorer window to add/manage files
 //   2. Use the Team Explorer window to connect to source control
 //   3. Use the Output window to see build output and other messages

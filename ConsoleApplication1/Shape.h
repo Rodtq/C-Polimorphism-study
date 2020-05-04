@@ -3,8 +3,10 @@
 class Shape
 {
 public:
-	virtual void PrintShape() = 0;
+
 	virtual ~Shape() {};
+	virtual void PrintShape() = 0; // método abstrato
 protected:
-	Shape() {} ;
+	Shape() {}; // evita qualquer um instanciar
+
 };
