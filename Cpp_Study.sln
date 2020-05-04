@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{DDD8BDFD-F0C4-4E9E-BDB5-E64A20BECF6A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polimorphism_Study", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{DDD8BDFD-F0C4-4E9E-BDB5-E64A20BECF6A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template_Study", "Template_Study\Template_Study.vcxproj", "{F5AFD781-0745-4F72-984C-B7A45D637222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{DDD8BDFD-F0C4-4E9E-BDB5-E64A20BECF6A}.Release|x64.Build.0 = Release|x64
 		{DDD8BDFD-F0C4-4E9E-BDB5-E64A20BECF6A}.Release|x86.ActiveCfg = Release|Win32
 		{DDD8BDFD-F0C4-4E9E-BDB5-E64A20BECF6A}.Release|x86.Build.0 = Release|Win32
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Debug|x64.ActiveCfg = Debug|x64
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Debug|x64.Build.0 = Debug|x64
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Debug|x86.Build.0 = Debug|Win32
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Release|x64.ActiveCfg = Release|x64
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Release|x64.Build.0 = Release|x64
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Release|x86.ActiveCfg = Release|Win32
+		{F5AFD781-0745-4F72-984C-B7A45D637222}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
